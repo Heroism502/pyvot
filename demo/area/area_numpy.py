@@ -3,18 +3,6 @@
 # Date: April 28th 2020
 # Licence: MIT
 
-"""
-===============================================================
-       Area Preserving Map through Optimal Transportation
-===============================================================
-
-This demo shows R^n -> R^n area preserving mapping through optimal transportation.
-The total area is assumed to be one. We randomly sample a square and
-count the samples to approximate the area. In this way, we avoid computing
-convex hulls.
-
-For now, PyVot assumes that the range in each dimension is (-1,1).
-"""
 
 import os
 import sys

@@ -1,7 +1,9 @@
 # PyVot : Python Variational Optimal Transportation
-This is a collection of codes for computing semi-discrete Monge optimal transportation (OT) through the variational method.
+This is a collection of codes for computing semi-discrete Monge optimal transportation (OT)
+through a variational approach. 
 
-We name our method *variational optimal transportation* (VOT) or *variational Wasserstein clustering* (VWC).
+We name our method *variational Wasserstein clustering* (VWC). We call our OT solver 
+*variational optimal transportation* (VOT), although we acknowledge other variational solvers.
 
 * Given the empirical distributions (marginals) and the initial centroids, 
 the vinilla VWC compute VOT and then update the centroids to the centers of mass.
@@ -21,7 +23,8 @@ In practice, we consider a collection of dense Dirac samples as an approximation
  
 * The picture below shows 10 random nested ellipses averaged according to the 
 Euclidean distance (left) and the Wasserstein distance (right). More examples 
-can be found in [demo/](demo/).
+can be found in [demo/](demo/). Note that all the samples must be in (-1, 1) 
+in each dimension.
 
 <img src="demo/rings/rings.png" width="50%">
 
